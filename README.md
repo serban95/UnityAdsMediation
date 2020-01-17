@@ -25,11 +25,23 @@ Check **Google Ad Mob** - **Enabled**<br/>
 Add **AdMob Android App Id** string<br/><br/>
 
 ![Image7](images/7.png)<br/>
-Into a Scene add the **AdManager** Prefab<br/>
 Locate Prefab at **AdMediation** -> **Prefabs** Folder<br/><br/>
 
+![Image7_1](images/7_1.png)<br/>
+Into a Scene add the **AdsManager** Prefab<br/>
+The Hierarchy should be like the Image<br/><br/>
+
 ![Image8](images/8.png)<br/>
-Select Prefab's GameObject in the Scene **AdMediation** and add **AdMob** and **AdColony** strings<br/><br/>
+Select Prefab's GameObject in the Scene **AdMediation** and add **AdMob** strings<br/><br/>
+
+![Image8_1](images/8_1.png)<br/>
+Add **Ad Units** to **MoPubManager** <br/><br/>
+
+![Image8_2](images/8_2.png)<br/>
+Add **Interstitial Ad Units** and **Rewarded Ad Units** to **MoPubDemoScene** <br/><br/>
+
+![Image8_3](images/8_3.png)<br/>
+Inside **IronSource** GameObject, Add **Unique User Id** and **AppKey** <br/><br/>
 
 ![Image9](images/9.png)<br/>
 ![Image10](images/10.png)<br/>
